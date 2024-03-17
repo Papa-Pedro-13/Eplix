@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+'title': 'Каталог'
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/header.html')
+
+    <main class="page catalog-page">
+      <div class="breadcrumbs">
+        <div class="breadcrumbs__container">
+          <a href="/" class="breadcrumbs__link">Главная страница</a>
+          <span>></span>
+          <span>Каталог</span>
+        </div>
+      </div>
+      <section class="categories categories--dark">
+        <div class="categories__container">
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie1.png" alt="" class="categories__img">
+            <p class="categories__text">Фастексы</p>
+          </a>
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie2.png" alt="" class="categories__img">
+            <p class="categories__text">Системы сброса</p>
+          </a>
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie3.png" alt="" class="categories__img">
+            <p class="categories__text">Пряжки</p>
+          </a>
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie4.png" alt="" class="categories__img">
+            <p class="categories__text">Адаптеры Molle</p>
+          </a>
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie5.png" alt="" class="categories__img">
+            <p class="categories__text">Крепления</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="big-categories">
+
+        <a class="big-categories__item" href='#'>
+          <div class="big-categories__container">
+            <div class="big-categories__title">Фастексы</div>
+            <img src="./images/big-categorie1.png" alt="" class="big-categories__img">
+          </div>
+        </a>
+        <a class="big-categories__item" href='#'>
+          <div class="big-categories__container">
+            <div class="big-categories__title">Системы сброса</div>
+            <img src="./images/big-categorie2.png" alt="" class="big-categories__img">
+          </div>
+        </a>
+        <a class="big-categories__item" href='#'>
+          <div class="big-categories__container">
+            <div class="big-categories__title">Пряжки</div>
+            <img src="./images/big-categorie3.png" alt="" class="big-categories__img">
+          </div>
+        </a>
+        <a class="big-categories__item" href='#'>
+          <div class="big-categories__container">
+            <div class="big-categories__title">Адаптеры</div>
+            <img src="./images/big-categorie4.png" alt="" class="big-categories__img">
+          </div>
+        </a>
+        <a class="big-categories__item" href='#'>
+          <div class="big-categories__container">
+            <div class="big-categories__title">Крепления</div>
+            <img src="./images/big-categorie5.png" alt="" class="big-categories__img">
+          </div>
+        </a>
+
+      </section>
+      <section class="recommendations">
+        <div class="recommendations__container">
+          <div class="recommendations__headline h2-title">
+            Самые популярные товары:
+          </div>
+          <div class="recommendations__cards">
+            <div class="recommendations__card card">
+              <div class="card__title">Крепление Fastclip mollesystem</div>
+              <div class="card__img-block">
+                <img src="./images/card1.png" alt="" class="card__img">
+              </div>
+              <div class="card__bottom">
+                <div class="card__price">75.00<span>руб.</span></div>
+                <div class="card__buy">
+                  Купить
+                </div>
+              </div>
+            </div>
+            <div class="recommendations__card card">
+              <div class="card__title">Система быстрого сброса Fastdrop 80</div>
+              <div class="card__img-block">
+                <img src="./images/card2.png" alt="" class="card__img">
+              </div>
+              <div class="card__bottom">
+                <div class="card__price">680.00<span>руб.</span></div>
+                <div class="card__buy">
+                  Купить
+                </div>
+              </div>
+            </div>
+            <div class="recommendations__card card">
+              <div class="card__title">Система быстрого сброса Fastdrop 40</div>
+              <div class="card__img-block">
+                <img src="./images/card3.png" alt="" class="card__img">
+              </div>
+              <div class="card__bottom">
+                <div class="card__price">420.00<span>руб.</span></div>
+                <div class="card__buy">
+                  Купить
+                </div>
+              </div>
+            </div>
+            <div class="recommendations__card card">
+              <div class="card__title">Фастекс 25мм</div>
+              <div class="card__img-block">
+                <img src="./images/card4.png" alt="" class="card__img">
+              </div>
+              <div class="card__bottom">
+                <div class="card__price">180.00<span>руб.</span></div>
+                <div class="card__buy">
+                  Купить
+                </div>
+              </div>
+            </div>
+            <div class="recommendations__card card">
+              <div class="card__title">Фастекс поворотный 40мм</div>
+              <div class="card__img-block">
+                <img src="./images/card5.png" alt="" class="card__img">
+              </div>
+              <div class="card__bottom">
+                <div class="card__price">265.00<span>руб.</span></div>
+                <div class="card__buy">
+                  Купить
+                </div>
+              </div>
+            </div>
+            <div class="recommendations__card card">
+              <div class="card__title">Insert tool</div>
+              <div class="card__img-block">
+                <img src="./images/card6.png" alt="" class="card__img">
+              </div>
+              <div class="card__bottom">
+                <div class="card__price">115.00<span>руб.</span></div>
+                <div class="card__buy">
+                  Купить
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+          </div>
+          <div class="recommendations__more">Больше товаров в нашем
+            <a href="#" class="recommendations__link">каталоге</a>
+          </div>
+        </div>
+      </section>
+      <section class="info-block">
+        <div class="info-block__container">
+
+          <h3 class="info-block__headline">Почему производители выбирают фурнитуру Eplix<span>®</span></h3>
+          <p class="info-block__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+            maecenas accumsan lacus vel facilisis.
+          </p>
+          <p class="info-block__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum.
+          </p>
+          <p class="info-block__text">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          </p>
+        </div>
+      </section>
+
+
+    </main>
+
+    @@include('html/footer.html')
+  </div>
+
+  @@include('html/popupExample.html')
+  @@include('html/script.html')
+</body>
+
+</html>

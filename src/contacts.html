@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+'title': 'Контакты'
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/header.html')
+
+    <main class="page contacts-page">
+      <div class="breadcrumbs">
+        <div class="breadcrumbs__container">
+          <a href="/" class="breadcrumbs__link">Главная страница</a>
+          <span>></span>
+          <span>Контакты</span>
+        </div>
+      </div>
+      <section class="categories categories--dark">
+        <div class="categories__container">
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie1.png" alt="" class="categories__img">
+            <p class="categories__text">Фастексы</p>
+          </a>
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie2.png" alt="" class="categories__img">
+            <p class="categories__text">Системы сброса</p>
+          </a>
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie3.png" alt="" class="categories__img">
+            <p class="categories__text">Пряжки</p>
+          </a>
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie4.png" alt="" class="categories__img">
+            <p class="categories__text">Адаптеры Molle</p>
+          </a>
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie5.png" alt="" class="categories__img">
+            <p class="categories__text">Крепления</p>
+          </a>
+        </div>
+      </section>
+      <section class="title-block title-block--contacts">
+        <div class="title-block__container">
+          <div class="title-block__headline">Контакты</div>
+        </div>
+      </section>
+      <section class="departments">
+        <div class="departments__container">
+          <div class="departments__item">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71px"
+              height="71px">
+              <image x="0px" y="0px" width="71px" height="71px"
+                xlink:href="data:img/png;base64,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" />
+            </svg>
+            <div class="departments__right">
+              <h3 class="departments__title">Call-центр:</h3>
+              <p class="departments__text">
+                тел.: +7 (343) 237-23-57
+              </p>
+            </div>
+          </div>
+          <div class="departments__item">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70px"
+              height="70px">
+              <image x="0px" y="0px" width="70px" height="70px"
+                xlink:href="data:img/png;base64,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" />
+            </svg>
+            <div class="departments__right">
+              <h3 class="departments__title">Оптовый отдел:</h3>
+              <p class="departments__text">
+                тел.: +7 (343) 288-75-46 <br>
+                e-mail: 3661210@gmail.com</p>
+            </div>
+          </div>
+          <div class="departments__item">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72px"
+              height="71px">
+              <image x="0px" y="0px" width="72px" height="71px"
+                xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABHCAQAAAAOsskZAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfoAxESJQv5RQcUAAAE5ElEQVRo3u2Z3U9bZRzHP+f0hUJbYEBAVtlwbHNTgyxz4owOdAtTw4Vmcbswy+689S94EpPnT/AP8MILQ5a9BAMxk2jCEl+2imNZXDLiYOxFCBSGQFsKPccL2rPTNpzT0tOWC77c8Jw+Pf08v3Oe39uj6KQlq6jBiwsFp6WRJMGqWLefqqSBZJDjHGMvdVQ5jKMTZ4lpwoyLeJ5AMsS7nKGb/fjxOG6hBMs85FdG+F3M5wEkGznHRY6wB5fjMGmts8A43zIklq2mqSDrOMEnnKSphDjgoYVTfEyX9FtNc7lUDvEZH9JQQpi03HiJMtmzYGUhhWa62FsGHIB2Oq2X7kYhQDNe48oSC2w4uPV1vDSRfkzVNFNtB1RFwPT1W3zPPKpjQEnauES3MQ5a72I3oOI2AU1wVSw5hgPIEL0mILf1YnM/1HFeBdxTzfmClxqHcWoyHpINnHPvytaKo5lGGolKA61hDqoaa1aT3eQl2UA9PjzbWECSdlpM4wBdMmrcR9/MA5hPh908gKTCy7zPcULUmvxVvtLxc9A0buVLzpnsFSPCBDflHbGSF5D08AZn6OVNWvK1p6X8dGVdWeEh7bTKUTFrCyQV9nOBz2m19q9FKcDr7OMgihwSq5ZAUiFEL6c5UDKYTbmo520meSb/sraQymFO01FinE356eYfpqx3jUorR6kvC5BCO4cJuG0mBWk0Ir/GU544nAnU0U6tYaMmvHZAPlMgSTDCd6w4mgl08hWdxq/V4LbbyIrJHhoT3BQbjuEAMspF09CFUthq3Y5XJFUZ9tbtY5luis4KXkdco1nejMJCRy9HcC1Iu0C7QLtA5QEyR6cEq+l/xRqxkpRFBQGpL1yVVMtvQTegZVQFr3JeRlDZrMrfcbyflgdQnBctJJUTHCIdQBVqS5i6bgGkscoMR416IkiwvAiZUtGZZZwnlYTIABIa04xwB0fznCKAQPxHmCFGmdkJUCqAWGSYb7jCXSIkSJr+tGJ/oFClEi4xI39ijr8JEcSX+kzHzWscK+/GNzJAsSpvcw8PquEmdaq4xJEKAYFI5HZu5L8ky4ljE1ylB38JjmK2D0R2LNNLH2rtgqe5LtOJYXuaU6wKK2uqCcrVIjIAjQ1h40jsgDZMmYCHk8SJFQG0wH1537oLbg2kE2WZZmPue7xV1Fs0yy8Myd+ExeGLHdAiT2lLZQIKPsNpbk97CNKIV46KyFZTrM2fZIpbzBQFkakQfZznlNzyRMgSSGg84IbDmUA9fXxBTwop5wWweUHFCmNc50ceWfffC1IDvVygV9YC69mRwHbbi4gc5Bl9dLPP7mjJUh5Tj7uRs6isyJ8hO5/Iww+JiBwlQpjGbZ9Y6/jooNvUza3nA1aIE8h+Rnk5RhGTY9xFhW1GNp1qOonwKSHjDk18RJzn2QeeeXpqoRX5DsXlH+jo9POKce0l+lnOPu11uiO29ZLiMoyOi37aUlZSaMudV8bKVEQJM8A1HlvNKmupLGKEucIPTO4QIBBR/mSAQR5vFRPL3kwQUcJc5ToPdwhQ6sENMMx0jpWUCjWsRJQxLnONqRygAjv5ziHFCHOZIR5lW6liLT0RYyzLCWwwz5rr60oR0bMxOsdzXNTRiEKScYa5XUGgFNIcCXzAPQa5wbRS5p5mjqSPA3RQzyIPmBbx/wFu/FsBVAEl7QAAAABJRU5ErkJggg==" />
+            </svg>
+            <div class="departments__right">
+              <h3 class="departments__title">Отдел снабжения:</h3>
+              <p class="departments__text">
+                тел.: +7 (343) 366-12-50 <br>
+                e-mail: 3241524@mail.ru
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts">
+        <div class="contacts__container">
+          <div class="contacts__item">
+            <h3 class="contacts__title">Производственный цех в Екатеринбурге:</h3>
+            <p class='contacts__text'>
+              <span>г. Екатеринбург, пр. Седова 46а.</span>
+              <br>
+              С 6:00 до 14:30 МСК в будни; сб, вс - выходной.
+            </p>
+          </div>
+          <div class="contacts__item">
+            <h3 class="contacts__title">Наши реквизиты:</h3>
+            <p class='contacts__text'>
+              <span>Полное наименование:</span>Индивидуальный предприниматель Васенев Павел Валерьевич <br>
+              <span>ОГРНИП: </span> 304667107000058<br>
+              <span>ИНН: </span> 666100240724<br>
+              <span>Юридический адрес:</span> 620147, г. Екатеринбург, ул. Академика Бардина 39-230<br>
+              <span>Почтовый/Фактический адрес:</span> 620090, г. Екатеринбург, пр-кт Седова 46а<br>
+              <span>Тел.: </span> +7 (343) 237-23-57, +7 (800) 500-71-82<br>
+            </p>
+          </div>
+          <div class="contacts__item">
+            <h3 class="contacts__title">Банковские реквизиты:</h3>
+            <p class='contacts__text'>
+              <span>Наименование банка:</span>Уральский Банк ПАО Сбербанк, г. Екатеринбург <br>
+              <span>Расчетный счёт:</span>408 028 100 165 400 21045 <br>
+              <span>Кор.счет:</span>301 018 105 000 000 00 674 <br>
+              <span>БИК:</span>046577674
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="map">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64px" height="76px">
+          <image x="0px" y="0px" width="64px" height="76px"
+            xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABMCAMAAADqdUGXAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAC+lBMVEX///80NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDP///9GQAJVAAAA/HRSTlMAAhcvP0pSWGFnZFxVTUQ3IwsDDBIfOWKK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" />
+        </svg>
+        <div class="map__text">
+          Проспект седова 46А
+        </div>
+      </section>
+
+    </main>
+
+    @@include('html/footer.html')
+  </div>
+
+  @@include('html/popupExample.html')
+  @@include('html/script.html')
+</body>
+
+</html>
