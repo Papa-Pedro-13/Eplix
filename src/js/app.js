@@ -57,8 +57,32 @@ new Tabs('tabs-example', {
 	},
 });
 
-new Accordion('.accordion', {
-	shouldOpenAll: false, // true
-	defaultOpen: [], // [0,1]
-	collapsedClass: 'open',
-});
+// new Accordion('.accordion', {
+// 	shouldOpenAll: false, // true
+// 	defaultOpen: [], // [0,1]
+// 	collapsedClass: 'open',
+// });
+
+
+$(document).ready((function () {
+	$(".slider__body").slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: !0,
+		fade: !0,
+		asNavFor: ".slider__nav"
+	}),
+		$(".slider__nav").slick({
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			asNavFor: ".slider__body",
+			dots: !1,
+			arrows: !1,
+			focusOnSelect: !0,
+			variableWidth: !0
+		})
+}))
+lightbox.option({
+	resizeDuration: 200,
+	wrapAround: !0
+})
