@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+'title': 'История заказов'
+})
+
+<body>
+  <div class="wrapper">
+    @@include('html/header-account.html')
+
+    <main class="page history-page">
+      <div class="breadcrumbs">
+        <div class="breadcrumbs__container">
+          <a href="/" class="breadcrumbs__link">Оптовый портал</a>
+          <span>></span>
+          <a href="/" class="breadcrumbs__link">Личный кабинет</a>
+          <span>></span>
+          <span>История заказов</span>
+        </div>
+      </div>
+      <section class="categories categories--dark">
+        <div class="categories__container">
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie7.png" alt="" class="categories__img">
+            <p class="categories__text">Новинки</p>
+          </a>
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie1.png" alt="" class="categories__img">
+            <p class="categories__text">Фастексы</p>
+          </a>
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie2.png" alt="" class="categories__img">
+            <p class="categories__text">Системы сброса</p>
+          </a>
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie3.png" alt="" class="categories__img">
+            <p class="categories__text">Пряжки</p>
+          </a>
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie4.png" alt="" class="categories__img">
+            <p class="categories__text">Адаптеры Molle</p>
+          </a>
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie5.png" alt="" class="categories__img">
+            <p class="categories__text">Крепления</p>
+          </a>
+          <a class="categories__item" href='#'>
+            <img src="./images/categorie6.png" alt="" class="categories__img">
+            <p class="categories__text">Все товары</p>
+          </a>
+        </div>
+      </section>
+      <section class="history">
+        <div class="history__container">
+          <h2 class="history__headline h2-title">История заказов:</h2>
+          <p class="history__desc">Для сортировки истории заказов нажмите на название столбца, для раскрытия заказа
+            нажмите на любую ячейку строки</p>
+          <div class="history__inner">
+            <div class="history__headers">
+              <div class="history__header">Номер</div>
+              <div class="history__header">Дата создания</div>
+              <div class="history__header">
+                Статус заказа
+                <span> /дата обновления</span>
+              </div>
+              <div class="history__header">Оценка качества выполнения заказа</div>
+              <div class="history__header">Кол-во позиций</div>
+              <div class="history__header">
+                Сумма
+                <span> /руб</span>
+              </div>
+            </div>
+            @@include('html/accordionExample.html')
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+
+    @@include('html/footer.html')
+  </div>
+
+  @@include('html/popupExample.html')
+  @@include('html/script.html')
+</body>
+
+</html>

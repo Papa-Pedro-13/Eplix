@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+'title': 'Регистрация'
+})
+
+<body>
+  <div class="wrapper">
+
+    <main class="page register-page">
+      <section class="form-block">
+        <div class="form-block__container">
+          <img src="./images/logo.png" alt="" class="form-block__logo">
+          <div class="form-block__inner">
+            <h2 class="form-block__headline h2-title">Регистрация:</h2>
+            <form class="form-block__form" action='' method='post'>
+              <div class="form-block__input-block">
+                <label class='form-block__label' for="tel">Введите Ваш номер телефона:</label>
+                <input id='tel' type="text" class="form-block__input" placeholder='+7 (XXX) XXX XX XX'>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47px"
+                  height="47px">
+                  <image x="0px" y="0px" width="47px" height="47px"
+                    xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAvCAQAAADZLlsnAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfoAxIRNB1Ou4DiAAAD6ElEQVRYw8XWXYjUVRjH8c/sjnW1am32xvpyU9I7ZBQohQgdSEJcUoxUsMX2QnKpjCAyDJIiM4nEAkWJIlvZdCki8RSLZFeGFxUpetNGm1K0ihkIuut2MWf+M87Mzs5uZc/Vec7L9/md5/+c8z+5EbENm8x3k9p2zJpw0DgsLsZWdOYOtPkO19adf9LMMNQwfJmP0IyBpvGoGr/lbRpDOdxsgVih8RHbQWfYX6W9ueg1md+QjKVVPdu1adOWgtSCD1ubOzBSHAq5qiwGB1Jz0I2XZz/WWFcBXxG683U19xlEK1qr01MhZRkZfBgrQjd18WEo9mJ1Sk+sCy9WC8OWE/YUcl/fevSkVnvM14U3l+BhTwE+Nv4fWpMLmYaraoz3pfwXsl9Pu5L2cvy5rN1SvTQMhSG9yVlaGz86fEw8lGe/Zv6LOa+Ck/eHWak9XX9NfJ/BrDiNUj9l1XI5/oT7Unu2Q7VWhqHYmxXnaPhm3cTu5A1Il0Xe8WzKbdWr4mR0eSy5j2rM2rDd9P+8MPN+zNoPVinv8hyuyboulg0PaGsE/7UR5HBvnBLOZvDFdpWB4bQlZV6n7SkN1TaATsiNiN/jLrAk7E3wJoOmli04Y4t3wp/jTw5fZviVEl6u7LI7a/NE0BQ+7W67k7cwthYaYdjWbM6QHROD00Q4Eo44CiZZl4287rfUavXuxOD/eWHmCv+0uM5mcN4thF8hrrYjm/d02Hb5wni/TzDJ53r0jfZMKeJb/JzKcCdhNcQmh81J8y5pD5+VwSf7qeyFMahXD9VhcsU/cnzFBhT+k3eHoxBnOozr074eLwWI671aQ2whTFmQEn6qE6YlZ39YmHrnos/VaQddhG3EyforjlxlEIUwGZ74pF2Z81J4Letf6YOyxfus8VSm/Yy92rXWDHPS8nJ8ziHzkjOiPXxaFmBH2kFBXd6U1H45bIx5CyzVTlWYY1emMJPKGb5NH5K/zA0/ZCNz9WYjRTuDWcXzHPOkXbSOgifO04fCm6HfA+H3bGSmvVmZpsQQNlbqjXkLsqdjJZ7YgZ3J6beI4h5ikw5sdEPSPovad1Hp/VmFh7jFs1mKWFH6yMQWL1pryKry3vHhm+2zKHNHrC+VaRofCZeYIJ7Y7M1sB7Df84WT3IiV8FeyMCs0dHhP6d057H0birdpo+rr4Inz7KOs3s/jbW+FwX8FT5yB3dlVUbCLvvChr0qvignjIeas8kZ2m5aSdQTfOOa4X5xzjnBhAniIUz2jq84lXNtONYiH2KITHW5veMnH/19hjrqLOZ7wsDvlxph42j0TwKcg0zyEO8x2q+u0aCE7Jadw0Ath4G9XJ09EIv4JJgAAAABJRU5ErkJggg==" />
+                </svg>
+              </div>
+              <div class="form-block__input-block">
+                <label class='form-block__label' for="password">Начните вводить название Вашего города или выберете из
+                  списка:</label>
+                <input id='password' type="text" class="form-block__input" placeholder='Екатеринбург'>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42px"
+                  height="50px">
+                  <image x="0px" y="0px" width="42px" height="50px"
+                    xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAyCAQAAACAT4EmAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfoAxIRMzvT95PYAAADOElEQVRYw9WXTUhUURSAvzf+rMUixmEwW0iYQRCBlZSD4DVpWkSCIbRzI0FgPwZBFAhBVrYSN64rIXGRUXOIGIURgxBcmIELU4aUKGlt6LToeee+533OMxqhu7r33HO+OefcM+fe5+QIHlLJOaCVQ1QRBVaBFRZJ8VatBds5QVBJcotGSgK2N8jwCNR4SKg0AQ84TZgxxR014RdGQpnucvg8lRIecmOXjCfcVhuBUKngBa2GIMcMME6aLKtAFIiTIMlxHEMvxWX10wqVCjIcMVRHuavm7c5JHX1cMgSfaIQtsIZKCa8NL5foUB92jloagBEOam/h/J805KGPdS4ngHb1PUw6ZT+jnM1nV93UUGkC0hrZAupX2FOSMt4Z2ISaKGZJSQbcYl/iRLjAPSn4qDM7pRrBySFJXmmNk9uPR+rpQlENLAPCsJrzaTQwrRcX1LiTQyY54wpGVbtHuZwBoNuXpE2GuK7WPZovdYFNqiYnVck3t23kqDfrUsp5Q3NAzO9pM7FSxxzgABsciNCmO9GMr9QHApHQzIC5VPPMMANACW0Ro+A9bUyO0q0XWTqJEaOTTrKurFvqpd4wGNf2rUUpqVJq9Dzt2enSx5PlmNvnn4OkmCUOROgCejzW9wCoiVBlBGmOFj3rNa8OtUbv1hRl6Ge1fVUpUS1e9UCrAyLIr6s90rx1tCg5jZi/4NlZ1rOEzyahNZYNaVTbrxbJ0xU9j3t2RM/6pdIQV9KvNcTQj2v7lVK+6H9+wnMkw1xziyrOrPSSdgPvd403GbYmBRZLSXHFXSS5n9dRczLEVe3Fs20xDvl6VVLPUsVpKGqNjLvj0GfaqXXaGGSQTR9wk0EvEujDcS/tjForSpP+r+6of39F2x4TY0BHOKyUMcJFvTQfE7Dt2TNWGCtlYCBtzx6QCqY5HBYrZYyARn7mlOWBBiAx0tSGwfrCXiChvuZ39+Qlvc1XWyXs7KflQ0JipEGDLZVQCGn/OolBcG4LIwO/o+xH5iuiBbAhd/o4s2TXU0QLJMCG3AFqwVIo7K2xFyVl8RXD21B+FoBaKiEEsiBU+1sbHhkKamADi+gvoCD76AGegvpRWPs3E+BQSCGnyboAAAAASUVORK5CYII=" />
+                </svg>
+              </div>
+              <div class="form-block__bottom">
+                <p class="form-block__text">В ближайшее время наши специалисты свяжутся с Вами для завершения
+                  регистрации.</p>
+              </div>
+              <div class="form-block__buttons">
+                <button class="form-block__btn" type='submit'>Регистрация</button>
+              </div>
+              <a href="/login.html" class="form-block__link mt-20">Перейти в окно «Вход»</a>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    @@include('html/footer-login.html')
+  </div>
+
+  @@include('html/popupExample.html')
+  @@include('html/script.html')
+</body>
+
+</html>

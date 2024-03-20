@@ -15,21 +15,21 @@
   margin: 0;
   background-color: #343433;
   .categories__container {
-    height: 90px;
+    height: 70px;
     justify-content: space-between;
   }
   .categories__img {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
   }
   .categories__text {
     margin-top: 0;
-    font-size: 20px;
+    font-size: 18px;
     color: #b9b9ba;
   }
   .categories__item {
     display: flex;
-    gap: 10px;
+    gap: 8px;
     flex-direction: row;
     &:hover .categories__text {
       color: #fff;

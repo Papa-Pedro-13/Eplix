@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/head.html', {
+'title': 'Вход'
+})
+
+<body>
+  <div class="wrapper">
+
+    <main class="page login-page">
+      <section class="form-block">
+        <div class="form-block__container">
+          <img src="./images/logo.png" alt="" class="form-block__logo">
+          <div class="form-block__inner">
+            <h2 class="form-block__headline">Вход:</h2>
+            <form class="form-block__form" action='' method='post'>
+              <div class="form-block__input-block">
+                <input type="text" class="form-block__input" placeholder='Адрес электронной почты'>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41px"
+                  height="33px">
+                  <image x="0px" y="0px" width="41px" height="33px"
+                    xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAhCAQAAADuOkoQAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfoAxIRAwC9ukwPAAACU0lEQVRIx+3VS2hUVxzH8c9crwaN9VF3uhGycKEErRRtcRMfR1GUIEobKloopBQqQummhWCI0I1LN6KoqAgiqGDUmIvaFtJaCOIDIhUVtAsrcYQUo3ZGM+liHp1gNKMzCxf+Nvec/zn/7/k/DuemulOWajdfnWqVcVW7i6nuJudFVeOKylkeaashkEhbbAG443rVuEYNWBCbDI6FH6slJj/5AZMjOTCVZFyVzGkgV6xjljBUJTKT/8SF6epkpt/tCrm3THqibZrz41R3xoSC/Zlr9oQDb4z7Sot6C43P51uOhEF9dobjSVRZvMkG35tbaLGRyGHDpfv52D/+1Kb31dVN6kQ+scN8k0rGYaly5G/2avGp+hL4hdN2uCnn3zBcBkuZZI7tlolMBEMyhpww0wpki4DL4WBYZauBkm+sWa92rVIjAqyzXa916gtA0nZqDV/qy0+LyLxbv0selrkPmaXBoqSUXDLVYrOUF+ShP9zzqMQoXSIQunQla7Wa50NTMF4LvrU7OeyWeWZYZ3OZw4Bf7QudRoQ3AgmhU2eyxGxfWFk4N+Ubn/tZk+n/99Uddx0KR19uXWwUhR49yUmf2WhVwTTd+rIN5xzR52Z4Opr3qEgIT+xPTlvjA5t8XLbwi0POhH6vVOw1Cv0OkJy1zBYfueS+8y6Ev7xWFTy/4bZT0uo8cEPnWMAxoiwp7WvfGZT1eOzNFSHDc39XdHSlib+p3iPfcWQe+qQGrDwjig2aho3JnKqRjWAwdkUTGjTUKO8rkY7iL70myuiIpWVr2KSs9H8mGaaf4uPbBgAAAABJRU5ErkJggg==" />
+                </svg>
+              </div>
+              <div class="form-block__input-block">
+                <input type="password" class="form-block__input" placeholder='Пароль'>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41px"
+                  height="46px">
+                  <image x="0px" y="0px" width="41px" height="46px"
+                    xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAuCAQAAAAfbPjFAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfoAxIRFCMaXrnrAAABgUlEQVRIx+2VLW/CQBjHf22KGwYH6RRqCoNAkolL5opH8w0g+wgEvgEvbglyOLIThA8wM0GmcM3qpnBL1gm6kvXl0q5HMjL+5q59nvvd/e+e9gwflWQJB4cmNQDeeGbJUnyoxhgqpOwwph57vaMP4jEnUpoMgb5ivjH34jMpYKUMGCpxBNMNkgJmiuEj0GdKizJlyrSYcrTVl53MyGJK2EtZ4jU8FI+uWP+I3vJANXjYcRM//aRVOiHQjwJBrOniB/brONmMH9NmUWAAnTGL5SqRzbA3T9mueRhpxoNJRVQLe9sU5DYhV4m8Ci3uk4liDzKSqzZeUBfkn0YaPtJmRDv8bn8vjw0D4Z5ilU82L1S08d5pmIw0AqHCyKSt2Xfb+j4WYRRlycM/tHoedXkeSCtLkrxjAkBPrDQhmWAH7bUu43ak1YDMpQtSKTfSakD2cHFx6WVJzlSXYpWlHvOtMpf+LdLCO1wV0i+KCuSZbDQvcnOKe1y4NFjg6bDMgoZwvwCubVsXnBFF8gAAAABJRU5ErkJggg==" />
+                </svg>
+              </div>
+              <div class="form-block__bottom">
+
+                <label class="form-block__checkbox checkbox">
+                  <input class="checkbox__input" type="checkbox" name="type">
+                  <span class="checkbox__box"></span>
+                  Запомнить меня
+                </label>
+
+                <a href="#" class="form-block__link">Забыли пароль</a>
+              </div>
+              <div class="form-block__buttons">
+                <button class="form-block__btn" type='submit'>Войти</button>
+                <a href="/register.html" class="form-block__btn btn-gray">Регистрация</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    @@include('html/footer-login.html')
+  </div>
+
+  @@include('html/popupExample.html')
+  @@include('html/script.html')
+</body>
+
+</html>
