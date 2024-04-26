@@ -48,17 +48,20 @@
 @media (max-width: 992px) {
   .header {
     &__logo {
-      height: 30px;
+      height: 20px;
       margin-top: -4px;
     }
     &__container {
-      height: 80px;
+      padding: 20px;
       .header__menu,
       .header__icons,
       .header__link {
         display: none;
       }
     }
+  }
+  .header-mobile {
+    display: flex;
   }
   .main__container {
     padding: 100px 20px;
@@ -292,7 +295,7 @@
   }
   .form-block {
     &__logo {
-      height: 32px;
+      height: 20px;
     }
     &__bottom,
     &__link,
