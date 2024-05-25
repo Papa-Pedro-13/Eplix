@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <style>
+    .loaded {
+      opacity: 1
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="static/slick.css?_v=20240305211927">
+  <link rel="stylesheet" type="text/css" href="static/slick-theme.css?_v=20240305211927">
+
+  <link rel="stylesheet" type="text/css" href="static/lightbox.min.css?_v=20240305211927">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Система быстрого сброса Fastdrop 40</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+  <div class="header__container">
+    <a href="./" class="header__logo logo">
+      <img class="logo__img" src="./images/logo.png" alt="">
+    </a>
+    <nav class="header__menu menu">
+      <ul class="menu__list">
+        <li class="menu__item"><a href="./catalog.html" class="menu__link">Каталог</a></li>
+        <li class="menu__item"><a href="./about.html" class="menu__link">О компании</a></li>
+        <li class="menu__item"><a href="./contacts.html" class="menu__link">Контакты</a></li>
+        <li class="menu__item"><a href="./history.html" class="menu__link">Оптовый портал</a></li>
+      </ul>
+    </nav>
+    <div class="header__search-block">
+      <input type="text" class="header__search">
+    </div>
+    <a href="tel:88006007182" class="header__link">+7 (800) 500 71 82</a>
+    <div class="header__icons">
+      <a href="./login.html">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30px" height="33px">
+          <image x="0px" y="0px" width="30px" height="33px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAhCAMAAAD5wuvoAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABp1BMVEU0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDP///9ZaLCcAAAAi3RSTlMAKUlgSiorld7gmjJL3fn44VRB8PyjID6d9Q7W8lhN7RZ3/W1e9nkFwMkJuNQi2ot97x005Gtl8yxw8Q3NseIKlzsz6qHHIRu++4DPFwcGFUaFAZbKoJwDatvfcggjX7piJQQCFFqGk3Q86SaSyL/B1/rZYQsoQO6qm0Mf9H/EsKiyP6u0N7auElLcPNm0tAAAAAFiS0dEjGwL0kMAAAAHdElNRQfoAw8SCAYXGAHqAAABfklEQVQoz4XR6TsCURQG8NtiV4iS7OsoZElKtiQRskRFJMouS0L2fX//aVM9qZlmHu+HmXOe34d7z7mEpEUgFInEWYQ72Tm5oJOXX8ClhRLapEX0p7gkU2WlKJPLFIpypRQVQraqKlFVnShraiGpY3F9g7QxWTc1o4WpVCvUmmSjaUM7kzu06Ex1XejuYbCuF/pU1weDjsHGvPTj+mESMHhgEEOpTonhEebhZphGk7VlDFbWYJZSjNsS5cQk7DoWkylgWjzjmJ2bVwMLTjZTi/S2l6yucfrnVmUu3bO8gni8q2tcT0Z86/l+v3tjk/CGonjAGQgEPEGnM+iJFUzb2t5RWtPi2t3bT9uxGhk5kB8mMBiyA2NHx62pnJyGAW18jcEd4CxyHoid+Rfqwh2GJPYul1GofRx31YdxtUYc14gaOWcxw3BDbF6EuEe9vcM90QFCbvY8QE72gQIevsIjKefnJzz/xy+AhYdf8UbeASMPu/FEZj4+v3ge8fsn8gvikHljUo0M8gAAAABJRU5ErkJggg=="/>
+        </svg>
+      </a>
+      <a href="./cart.html">
+
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29px" height="33px">
+          <image x="0px" y="0px" width="29px" height="33px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAhCAMAAAAS9VDrAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAB1FBMVEU0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDM0NDP////x6NILAAAAmnRSTlMAY7m4uq46154BU6OkoarnoAcIGb7pxcTMfA+74xK84rOxsO3HAt6cLvZxA2zwRaXVFs+1NOiBZP75SZEUCRAs34YjwagTXP1KIu/77uz1+hgfzreDfoAtyAXYhbTWMxUGXsrJn1ELigRBmcbrm5SQv9we948MJNky8XBPch1/2yh7Q0hvK9EvQFWtWUxz6vKVCqtn4c13GoTQpjZTVQAAAAFiS0dEm+/YV4QAAAAHdElNRQfoAw8SCBzqeviQAAABnElEQVQoz3WT5VsCQRCHT88uBAMLC1GxW7EVE+xGRbERu8VW7O74/bXuHWBwt++HnZ17b/eZm3mOcXN3Z1kPTy9GFG/w+PiKWj//gMAgCYLFzzJSmTQkFGHhclfCIyL5F6KiIUoMbxWxiItPcCFRiSSnDRZUpUpGyo8V1JOqRprTBqa72gxkZtFtNnJyqVaWh3yGagsKUUS3xSWaUrotQ1g51VawkDu2ldGCblRVo8axrdWiLldR/wdpQyOaONWcItHpoWn5R2sb2juI7OwSnw+6ZcT2AEFFvQL6evu5iweQYGCoDGKILplhGEdGRag3cXYM0I1PCBiXT06RBk3PgMYMOW6eJd/kbZkD5hfKFglL/i3AsiUGKOYuX4F21Vxpgb5flU5Q+a2VrG+YN7cQS+S2FTskeDVi117oHtT7JBzgkKxHVhyTcKKHzW5PoTnjZzhIVtM5qm3MhRbKTru91IGt9b1S4prLbgCrsRDoc0zRMEl+A+MadLd8endP6n94fHJ2SPGsJg8kL/bMNKZ9fXtX/Dbw4/Mrmb0yMN9XoLw/2TjzcQAAAABJRU5ErkJggg=="/>
+        </svg>
+      </a>
+    </div>
+
+    <button class="header__burger icon-menu">
+  <span></span>
+</button>
+  </div>
+</header>
+
+    <main class="page product-page">
+      <div class="breadcrumbs">
+        <div class="breadcrumbs__container">
+          <a href="/" class="breadcrumbs__link">Главная страница</a>
+          <span>></span>
+          <a href="/catalog.html" class="breadcrumbs__link">Каталог</a>
+          <span>></span>
+          <a href="/category.html" class="breadcrumbs__link">Системы сброса</a>
+          <span>></span>
+          <span>Система быстрого сброса Fastdrop 40</span>
+        </div>
+      </div>
+      <section class="categories categories--dark">
+        <div class="categories__container">
+          <a class="categories__item" href="#">
+            <img src="./images/categorie1.png" alt="" class="categories__img">
+            <p class="categories__text">Фастексы</p>
+          </a>
+          <a class="categories__item" href="#">
+            <img src="./images/categorie2.png" alt="" class="categories__img">
+            <p class="categories__text">Системы сброса</p>
+          </a>
+          <a class="categories__item" href="#">
+            <img src="./images/categorie3.png" alt="" class="categories__img">
+            <p class="categories__text">Пряжки</p>
+          </a>
+          <a class="categories__item" href="#">
+            <img src="./images/categorie4.png" alt="" class="categories__img">
+            <p class="categories__text">Адаптеры Molle</p>
+          </a>
+          <a class="categories__item" href="#">
+            <img src="./images/categorie5.png" alt="" class="categories__img">
+            <p class="categories__text">Крепления</p>
+          </a>
+        </div>
+      </section>
+      <section class="product">
+        <div class="product__container">
+          <h2 class="product__headline">Система быстрого сброса Fastdrop 40</h2>
+          <div class="product__inner">
+            <div class="product__sliders">
+              <div class="slider__body">
+                <a class="slider__item" href="images/card1.png" data-lightbox="image-1">
+                  <img src="./images/card1.png" alt="">
+                </a>
+                <a class="slider__item" href="images/card2.png" data-lightbox="image-1">
+                  <img src="./images/card2.png" alt="">
+                </a>
+                <a class="slider__item" href="images/card3.png" data-lightbox="image-1">
+                  <img src="./images/card3.png" alt="">
+                </a>
+                <a class="slider__item" href="images/card4.png" data-lightbox="image-1">
+                  <img src="./images/card4.png" alt="">
+                </a>
+                <a class="slider__item" href="images/card1.png" data-lightbox="image-1">
+                  <img src="./images/card1.png" alt="">
+                </a>
+                <a class="slider__item" href="images/card2.png" data-lightbox="image-1">
+                  <img src="./images/card2.png" alt="">
+                </a>
+                <a class="slider__item" href="images/card3.png" data-lightbox="image-1">
+                  <img src="./images/card3.png" alt="">
+                </a>
+                <a class="slider__item" href="images/card4.png" data-lightbox="image-1">
+                  <img src="./images/card4.png" alt="">
+                </a>
+              </div>
+              <div class="slider-nav slider__nav">
+                <div class="slider-nav__item">
+                  <img class="slider-nav__img" src="./images/card1.png" alt="">
+                </div>
+                <div class="slider-nav__item">
+                  <img class="slider-nav__img" src="./images/card2.png" alt="">
+
+                </div>
+                <div class="slider-nav__item">
+                  <img class="slider-nav__img" src="./images/card3.png" alt="">
+
+                </div>
+                <div class="slider-nav__item">
+                  <img class="slider-nav__img" src="./images/card4.png" alt="">
+
+                </div>
+                <div class="slider-nav__item">
+                  <img class="slider-nav__img" src="./images/card1.png" alt="">
+                </div>
+                <div class="slider-nav__item">
+                  <img class="slider-nav__img" src="./images/card2.png" alt="">
+
+                </div>
+                <div class="slider-nav__item">
+                  <img class="slider-nav__img" src="./images/card3.png" alt="">
+
+                </div>
+                <div class="slider-nav__item">
+                  <img class="slider-nav__img" src="./images/card4.png" alt="">
+
+                </div>
+              </div>
+            </div>
+            <div class="product__info">
+              <div class="product-info__block">
+                <div class="product__property">
+                  Артикул: <span>18765000</span>
+                </div>
+                <div class="product__colors">
+                  <div class="product__property">
+                    Цвет: <span>Черный*</span>
+                  </div>
+                  <div class="product__color product__color--active" style="background-color: #343433;"></div>
+                  <div class="product__color" style="background-color: #5f695a;"></div>
+                  <div class="product__color" style="background-color: #a59983;"></div>
+                  <p class="product__clarification">*фактический цвет изделия может отличаться от представленых на сайте
+                    фотографий</p>
+                </div>
+              </div>
+              <div class="product-info__block product__btn-block">
+
+
+                <button class="product__btn" type="button">Узнать стоимость</button>
+                <p class="product__clarification">Стоимость видна только зарегистрированым на оптовом портале
+                  клиентам.
+                </p>
+
+              </div>
+              <div class="product-info__block">
+                <h3 class="product__title">
+                  Характеристики:
+                </h3>
+                <div class="product__characteristics">
+
+                  <div class="product__property">
+                    Бренд:<span>Eplix®</span>
+                  </div>
+                  <div class="product__property">
+                    Страна производства:<span>Россия</span>
+                  </div>
+                  <div class="product__property">
+                    Материал:<span>Армамид</span>
+                  </div>
+                  <div class="product__property">
+                    Комплект:<span>2шт, без хлястика</span>
+                  </div>
+                  <div class="product__property">
+                    Вес:<span>118гр.</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="info-block">
+        <div class="info-block__container">
+          <h3 class="info-block__headline">Подробное описание:
+          </h3>
+          <p class="info-block__text">
+            Комплект системы быстрого сброса FAST DROP TACTICAL GEAR шириной 40мм Предназначен для установки на плечевые
+            лямки плитоносцев серии STICH DEFENSE и нагрудников Chest Rig.
+          </p>
+          <p class="info-block__text">
+            Благодаря прочности материалов и удобству конструкции, система FAST DROP легко может использоваться, как при
+            жарком климате, так и в холодном. Содержит минимальное количество выступающих элементов, для предотвращения
+            непроизвольного открывания и поломки, а также усиление частей, на которые приходится основная нагрузка при
+            контакте с оружием.
+          </p>
+        </div>
+      </section>
+      <section class="product-list recommendations">
+        <div class="recommendations__container">
+          <div class="h2-title recommendations__headline">
+
+            Похожие товары:
+          </div>
+          <div class="product-list__cards recommendations__cards">
+            <div class="card recommendations__card">
+              <div class="card__title">Крепление Fastclip mollesystem</div>
+              <div class="card__img-block">
+                <img src="./images/card1.png" alt="" class="card__img">
+              </div>
+              <div class="card__bottom">
+                <div class="card__price">75.00<span>руб.</span></div>
+                <div class="card__buy">
+                  Купить
+                </div>
+              </div>
+            </div>
+            <div class="card recommendations__card">
+              <div class="card__title">Система быстрого сброса Fastdrop 80</div>
+              <div class="card__img-block">
+                <img src="./images/card2.png" alt="" class="card__img">
+              </div>
+              <div class="card__bottom">
+                <div class="card__price">680.00<span>руб.</span></div>
+                <div class="card__buy">
+                  Купить
+                </div>
+              </div>
+            </div>
+            <div class="card recommendations__card">
+              <div class="card__title">Система быстрого сброса Fastdrop 40</div>
+              <div class="card__img-block">
+                <img src="./images/card3.png" alt="" class="card__img">
+              </div>
+              <div class="card__bottom">
+                <div class="card__price">420.00<span>руб.</span></div>
+                <div class="card__buy">
+                  Купить
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+          </div>
+
+        </div>
+      </section>
+      <section class="product-list recommendations">
+        <div class="recommendations__container">
+          <div class="h2-title recommendations__headline">
+
+            Ранее вы смотрели:
+          </div>
+          <div class="product-list__cards recommendations__cards">
+            <div class="card recommendations__card">
+              <div class="card__title">Крепление Fastclip mollesystem</div>
+              <div class="card__img-block">
+                <img src="./images/card1.png" alt="" class="card__img">
+              </div>
+              <div class="card__bottom">
+                <div class="card__price">75.00<span>руб.</span></div>
+                <div class="card__buy">
+                  Купить
+                </div>
+              </div>
+            </div>
+            <div class="card recommendations__card">
+              <div class="card__title">Система быстрого сброса Fastdrop 80</div>
+              <div class="card__img-block">
+                <img src="./images/card2.png" alt="" class="card__img">
+              </div>
+              <div class="card__bottom">
+                <div class="card__price">680.00<span>руб.</span></div>
+                <div class="card__buy">
+                  Купить
+                </div>
+              </div>
+            </div>
+            <div class="card recommendations__card">
+              <div class="card__title">Система быстрого сброса Fastdrop 40</div>
+              <div class="card__img-block">
+                <img src="./images/card3.png" alt="" class="card__img">
+              </div>
+              <div class="card__bottom">
+                <div class="card__price">420.00<span>руб.</span></div>
+                <div class="card__buy">
+                  Купить
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+  <div class="footer__top">
+    <div class="footer__container">
+      <div class="footer__block">
+        <div class="footer__title">Информация </div>
+        <div class="footer-list footer__list">
+          <a class="footer-list__item" href="#">О компании</a>
+          <a class="footer-list__item" href="#">Адреса магазинов</a>
+          <a class="footer-list__item" href="#">Контакты</a>
+          <a class="footer-list__item" href="#">Наши партнеры</a>
+          <a class="footer-list__item" href="#">Eplix® оптом</a>
+        </div>
+      </div>
+      <div class="footer__block">
+        <div class="footer__title">Клиенту</div>
+        <div class="footer-list footer__list">
+          <a class="footer-list__item" href="#">Как заказать</a>
+          <a class="footer-list__item" href="#">Как оплатить</a>
+          <a class="footer-list__item" href="#">Доставка</a>
+          <a class="footer-list__item" href="#">Возврат товара</a>
+          <a class="footer-list__item" href="#">Скачать каталог</a>
+        </div>
+      </div>
+      <div class="footer__block">
+        <a href="#" class="footer__link">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <path d="M3.29289 5.29289C3.47386 5.11193 3.72386 5 4 5H20C20.2761 5 20.5261 5.11193 20.7071 5.29289M3.29289 5.29289C3.11193 5.47386 3 5.72386 3 6V18C3 18.5523 3.44772 19 4 19H20C20.5523 19 21 18.5523 21 18V6C21 5.72386 20.8881 5.47386 20.7071 5.29289M3.29289 5.29289L10.5858 12.5857C11.3668 13.3668 12.6332 13.3668 13.4142 12.5857L20.7071 5.29289" stroke="#343433" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+          </svg>
+          Написать нам на почту
+        </a>
+        <a href="#" class="footer__link">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <path d="M15 5V9M15 9L19 9M15 9L21 3M18.5 21C9.93959 21 3 14.0604 3 5.5C3 5.11378 3.01413 4.73086 3.04189 4.35173C3.07375 3.91662 3.08968 3.69907 3.2037 3.50103C3.29814 3.33701 3.4655 3.18146 3.63598 3.09925C3.84181 3 4.08188 3 4.56201 3H7.37932C7.78308 3 7.98496 3 8.15802 3.06645C8.31089 3.12515 8.44701 3.22049 8.55442 3.3441C8.67601 3.48403 8.745 3.67376 8.88299 4.05321L10.0491 7.26005C10.2096 7.70153 10.2899 7.92227 10.2763 8.1317C10.2643 8.31637 10.2012 8.49408 10.0942 8.64506C9.97286 8.81628 9.77145 8.93713 9.36863 9.17882L8 10C9.2019 12.6489 11.3501 14.7999 14 16L14.8212 14.6314C15.0629 14.2285 15.1837 14.0271 15.3549 13.9058C15.5059 13.7988 15.6836 13.7357 15.8683 13.7237C16.0777 13.7101 16.2985 13.7904 16.74 13.9509L19.9468 15.117C20.3262 15.255 20.516 15.324 20.6559 15.4456C20.7795 15.553 20.8749 15.6891 20.9335 15.842C21 16.015 21 16.2169 21 16.6207V19.438C21 19.9181 21 20.1582 20.9007 20.364C20.8185 20.5345 20.663 20.7019 20.499 20.7963C20.3009 20.9103 20.0834 20.9262 19.6483 20.9581C19.2691 20.9859 18.8862 21 18.5 21Z" stroke="#343433" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+          </svg>
+          Заказать обратный звонок
+        </a>
+      </div>
+      <div class="footer__block">
+        <a href="#" class="footer__link">Вход </a>
+        <a href="#" class="footer__link">Регистрация</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="footer__container">
+      <div class="footer__copyright">
+        Copyright © 2023 - 2024 Eplix®. Производство и продажа изделий из пластика и комплектующих
+      </div>
+      <a href="#" class="footer__privacy">
+        Политика конфиденциальности
+      </a>
+    </div>
+  </div>
+</footer>
+  </div>
+
+  <div class="popup" data-popup="popup-1" data-close-overlay>
+    <div class="popup__wrapper" data-close-overlay>
+        <div class="popup__content">
+            <button class="button-close popup__close" type="button">x</button>
+            <div class="popup__body">
+                <h2>Базовый пример модального окна</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js?_v=20240305211927"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js?_v=20240305211927"></script>
+<script type="text/javascript" src="static/slick.min.js?_v=20240305211927"></script>
+
+<script src="static/lightbox.min.js?_v=20240305211927"></script>
+
+<script src="js/app.min.js"></script>
+</body>
+
+</html>
