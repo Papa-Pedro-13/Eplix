@@ -8,6 +8,7 @@ import { logger } from "../config/Logger.js";
 
 const javaScript = (isDev) => {
   return gulp.src(filePaths.src.js, { sourcemaps: isDev })
+    .pipe(gulp.dest(filePaths.build.js))
     .pipe(logger.handleError('JS'))
     .pipe(webpack({ config: webpackConfig(isDev) }))
     .pipe(gulp.dest(filePaths.build.js))
