@@ -46,7 +46,9 @@
   /** Поменять на clip - если используется в проекте position: sticky */
   overflow: hidden;
 }
-
+p {
+  font-weight: 300;
+}
 .page {
   position: relative;
   flex: 1 1 auto;
@@ -69,6 +71,6 @@ a {
   color: inherit;
   transition: all 0.2s ease-in;
   &:hover {
-    opacity: 0.8;
+    color: #c8624d;
   }
 }

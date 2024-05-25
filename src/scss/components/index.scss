@@ -19,7 +19,7 @@
     min-height: calc(100svh - 110px);
     background-image: url(../images/main-bg.png);
     background-repeat: no-repeat;
-    background-size: auto 80%;
+    background-size: auto 600px;
     background-position: 100% center;
     justify-content: center;
   }
@@ -54,8 +54,14 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    img {
+      transition: all 0.3s ease-in;
+    }
     &:hover {
       opacity: 1;
+      img {
+        transform: scale(110%);
+      }
       .categories__text {
         color: #c8624d;
       }
@@ -100,9 +106,14 @@ section {
     justify-content: center;
     align-items: flex-end;
     background-image: url(../images/poster-bg.png);
-    background-position: start center;
+    background-position: 5% center;
     background-repeat: no-repeat;
     background-size: 60% auto;
+    transition: all 0.2s ease-in;
+    &:hover {
+      background-size: 65% auto;
+      background-position: 0 center;
+    }
   }
   &__headline {
     color: #b9b9b9;
@@ -141,11 +152,11 @@ section {
     font-size: 38px;
     color: #5d625c;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
   }
   &__link {
     color: #c8624d;
-    font-weight: 900;
+    font-weight: 500;
     text-decoration: underline;
   }
 }
@@ -153,6 +164,9 @@ section {
   padding: 20px 25px;
   border: 1px solid #b9b9b9;
   border-radius: 15px;
+  &:hover .card__img-block {
+    transform: scale(105%);
+  }
   &__title {
     color: #191919;
     font-weight: 700;
@@ -160,8 +174,9 @@ section {
   }
   &__img-block {
     margin-top: 20px;
-    border: 1px solid #dadada;
     padding: 15px;
+    transform: scale(95%);
+    transition: all 0.3s ease-in;
   }
   &__img {
     width: 100%;
@@ -237,6 +252,10 @@ section {
   &__link {
     width: 30px;
     height: 30px;
+    transition: all 0.3s ease-in;
+    &:hover {
+      transform: scale(120%);
+    }
     * {
       width: 100%;
       height: 100%;

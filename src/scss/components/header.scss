@@ -5,10 +5,10 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    height: 110px;
   }
   &__logo {
-    height: 38px;
+    height: 26px;
+    margin-top: -5px;
   }
   &__menu {
   }
@@ -16,7 +16,7 @@
     color: #343433;
     &:hover {
       opacity: 1;
-      color: #757575;
+      color: #c8624d;
     }
   }
   &__search-block {
@@ -44,7 +44,7 @@
   &__icons {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 40px;
     svg {
       cursor: pointer;
       width: 20px;
@@ -74,14 +74,28 @@
     color: #343433;
     &:hover {
       opacity: 1;
-      color: #757575;
+      color: #c8624d;
     }
+    color: #525a58;
   }
+}
+.header__icons a {
+  transform: scale(120%);
+}
+.header__icons a:first-child svg,
+.header__icons a:last-child * {
+  transition: all 0.2s ease-in;
+}
+.header__icons a:first-child:hover svg {
+  fill: #c8624d;
+}
+.header__icons a:last-child:hover svg * {
+  stroke: #c8624d;
 }
 // Burger
 .icon-menu {
   display: none;
-
+  background-color: inherit;
   @include media-mx(992) {
     display: block;
     position: relative;
@@ -214,4 +228,33 @@
     align-items: center;
     gap: 10px;
   }
+}
+.header-mobile {
+  padding: 50px 20px 100px;
+
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: calc(100svh - 80px);
+  position: fixed;
+  top: 56px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 2;
+  gap: 20px;
+  transform: translateX(-101%);
+  transition: all 0.2s ease-in;
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .header__link {
+    margin-top: auto;
+  }
+}
+.menu-open .header-mobile {
+  transform: none;
 }
